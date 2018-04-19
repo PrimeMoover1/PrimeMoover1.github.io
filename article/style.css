@@ -1,0 +1,49 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #FDFBFB;
+}
+
+
+.textarea {
+	width: 60%;
+	margin: 5% auto;
+	padding: 2% 8%;
+	box-shadow: 0 0 8px;
+	background: white;
+	border-radius: 20px;
+}
+
+h2 {
+	font-size: 4em;
+	text-align: center;
+	font-style: italic;
+	font-weight: 1;
+	line-height: 0.9;
+	display: block;
+	margin-bottom: 80px;
+}
+
+p {
+	font-size: 1.3em;
+	line-height: 1.5;
+}
+
+
+
+
+img {
+	width: 40%;
+	height: auto;
+	display: block;
+	border-radius: 200px;
+	margin: 30px auto;
+
+}
+
+
+
+
+
+
+
