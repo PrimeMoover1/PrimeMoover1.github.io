@@ -1,0 +1,136 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+	min-width: 320px;
+	position: relative;
+}
+.hidden {
+	display: none;
+}
+.carousel img {
+	width: 100%;
+	height: auto;
+}
+.parallax {
+	background-attachment: fixed;
+	background-position: 50% 0;
+	position: relative;
+}
+
+header {
+	background-image: url(../img/bg_header.jpg);
+	background-repeat: repeat-x;
+	background-position: top center;
+	min-height: 640px;
+	position: relative;
+	font-family: "BebasBold";
+}
+
+header a {
+	color: #fff;
+}
+
+header h1 {
+	font-family: "BebasRegular";
+	color: #fff;
+	text-align: center;
+	font-size: 40px;
+	margin-top: 58px;
+	text-shadow: rgba(0,0,0,.3) 0 2px;
+}
+
+.top_line {
+	min-height: 97px;
+	-webkit-box-shadow: rgba(255,255,255,.3) 0 0 0 1px;
+	box-shadow: rgba(255,255,255,.3) 0 0 0 1px;
+	width: 100%;
+	background-color: rgba(0,0,0,0.60);
+	padding: 22px 45px;
+}
+
+.top_line a {
+	font-size: 21px;
+	border-bottom: 1px dashed #fff;
+	transition: all .25s;
+}
+
+.top_line a:hover {
+	font-size: 21px;
+	border-bottom: transparent 1px dashed;
+}
+
+.top_addr {
+    padding-left: 50px;
+    background-image: url(../img/top_map.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    font-family: "BebasBold";
+    line-height: 26px;
+    
+}
+
+.top_addr strong {
+	color: #d12f22;
+	display: block;
+	text-transform: uppercase;
+	font-weight: normal;
+	font-size: 32px;
+
+}
+
+.logo_wrap {
+	position:relative;
+	width: 240px;
+	margin:auto;
+}
+
+
+.top_line .logo_wrap .logo {
+	border-bottom: none;
+	position: absolute;
+	margin-top: -18px;
+}
+}
+
+.top_line .logo_wrap .logo:hover {
+	border-bottom: none;
+}
+
+.ta_right {
+	background-image: none;
+	padding-right: 10px;
+	text-align: right;
+}
+
+.ta_right span {
+	color: #fff;
+}
+
+
+
+
