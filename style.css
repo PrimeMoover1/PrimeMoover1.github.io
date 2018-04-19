@@ -1,0 +1,69 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+
+.block {
+	width: 100%;
+
+}
+
+.block1 {
+	float: left;
+	position: absolute;
+	width: 50%;
+	height: 100%;
+	background: #07F2CA;
+	cursor: pointer;
+	transition: background 1s, color 1s;
+}
+
+.block1:hover {
+	background: red;
+	color: white;
+}
+
+.block2 {
+	float: right;
+	position: absolute;
+	width: 50%;
+	height: 100%;
+	background: #F80D0D;
+	left:50%;
+	cursor: pointer;
+}
+
+.text1 {
+	float: left;
+	position: absolute;
+	top: -10%;
+	width: 100%;
+	height: 100%;
+	
+
+}
+
+.text1 p{
+	font-size: 10vw;
+	font-family: impact;
+	text-align: center;
+
+}
+
+.text2 {
+	float: left;
+	position: absolute;
+	top: -10%;
+	width: 100%;
+	height: 100%;
+	
+
+}
+
+.text2 p{
+	font-size: 10vw;
+	font-family: impact;
+	text-align: center;
+
+}
