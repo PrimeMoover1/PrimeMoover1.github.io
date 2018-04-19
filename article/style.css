@@ -1,7 +1,7 @@
 body {
 	margin: 0;
 	padding: 0;
-	background: #FDFBFB;
+	
 }
 
 
@@ -9,13 +9,12 @@ body {
 	width: 60%;
 	margin: 5% auto;
 	padding: 2% 8%;
-	box-shadow: 0 0 8px;
 	background: white;
-	border-radius: 20px;
+	
 }
 
 h2 {
-	font-size: 4em;
+	font-size: 80px;
 	text-align: center;
 	font-style: italic;
 	font-weight: 1;
@@ -25,7 +24,7 @@ h2 {
 }
 
 p {
-	font-size: 1.3em;
+	font-size: 25px;
 	line-height: 1.5;
 }
 
@@ -33,7 +32,7 @@ p {
 
 
 img {
-	width: 40%;
+	width: 400px;
 	height: auto;
 	display: block;
 	border-radius: 200px;
