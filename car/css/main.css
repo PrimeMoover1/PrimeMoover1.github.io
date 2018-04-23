@@ -42,95 +42,130 @@ body {
 	position: relative;
 }
 
+
 header {
 	background-image: url(../img/bg_header.jpg);
 	background-repeat: repeat-x;
 	background-position: top center;
-	min-height: 640px;
+	min-height: 644px;
 	position: relative;
 	font-family: "BebasBold";
 }
 
-header a {
-	color: #fff;
-}
-
-header h1 {
-	font-family: "BebasRegular";
-	color: #fff;
-	text-align: center;
-	font-size: 40px;
-	margin-top: 58px;
-	text-shadow: rgba(0,0,0,.3) 0 2px;
-}
-
 .top_line {
 	min-height: 97px;
-	-webkit-box-shadow: rgba(255,255,255,.3) 0 0 0 1px;
 	box-shadow: rgba(255,255,255,.3) 0 0 0 1px;
 	width: 100%;
-	background-color: rgba(0,0,0,0.60);
-	padding: 22px 45px;
+	background: rgba(0,0,0,.6);
+	padding: 20px 0;
 }
 
-.top_line a {
-	font-size: 21px;
-	border-bottom: 1px dashed #fff;
-	transition: all .25s;
-}
-
-.top_line a:hover {
-	font-size: 21px;
-	border-bottom: transparent 1px dashed;
-}
 
 .top_addr {
-    padding-left: 50px;
-    background-image: url(../img/top_map.png);
-    background-repeat: no-repeat;
-    background-position: left top;
-    font-family: "BebasBold";
-    line-height: 26px;
-    
+	background-image: url(../img/top_map.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	line-height: 26px;
+	padding-left: 40px;
+	margin: 5px 25px 0 25px;
 }
 
 .top_addr strong {
-	color: #d12f22;
 	display: block;
+	color: #d12f22;
 	text-transform: uppercase;
-	font-weight: normal;
+	font-weight: normal; 
 	font-size: 32px;
+	
 
+}
+
+.top_line a {
+	color: white;
+	font-size: 21px;
+	border-bottom: dashed 1px;
+	text-transform: uppercase;
+	transition: all .25s;
+
+}
+
+
+.top_line a:hover {
+	border-bottom: transparent 1px dashed;
+}
+
+.top_line .logo {
+	border-bottom: none;
+	position: absolute;
+	margin-top: -10px
+}
+
+.top_line .logo:hover {
+	border-bottom: none;
 }
 
 .logo_wrap {
-	position:relative;
+	position: relative;
 	width: 240px;
-	margin:auto;
-}
-
-
-.top_line .logo_wrap .logo {
-	border-bottom: none;
-	position: absolute;
-	margin-top: -18px;
-}
-}
-
-.top_line .logo_wrap .logo:hover {
-	border-bottom: none;
+	margin: auto;
 }
 
 .ta_right {
 	background-image: none;
-	padding-right: 10px;
+	padding: none;
 	text-align: right;
 }
 
 .ta_right span {
-	color: #fff;
+	color: white;
 }
 
+header h1 {
+	text-align: center;
+	color: white;
+	margin-top: 64px;
+	font-size: 40px;
+	text-shadow: 0 3px rgba(0,0,0, 0.55);
+	font-family: "BebasRegular";
+}
 
+.button {
+	display: inline-block;
+	background-color: #d12f22;
+	height: 50px;
+	line-height: 50px;
+	vertical-align: middle;
+	padding: 0 20px;
+	font-size: 20px;
+	color: white;
+	border-bottom: 4px #ac160a solid;
+	transition: background-color 0.25s;
+}
 
+.button:hover {
+	background-color: #e64440;
+}
 
+.button:active {
+	background-color: #b81609;
+}
+
+.buttons_top {
+	position: absolute;
+	width: 100%;
+	bottom: 32px;
+}
+
+header .button {
+	margin-right: 20px;
+}
+
+.st_button {
+	line-height: 18px;
+	padding-top: 8px;
+	text-align: left;
+	padding-left: 63px;
+	background-image: url(../img/camera.png);
+	background-repeat: no-repeat;
+	background-position: 8px 8px;
+}
