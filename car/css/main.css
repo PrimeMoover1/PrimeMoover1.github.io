@@ -140,6 +140,7 @@ header h1 {
 	color: white;
 	border-bottom: 4px #ac160a solid;
 	transition: background-color 0.25s;
+	font-family: "BebasBold";
 }
 
 .button:hover {
@@ -169,3 +170,294 @@ header .button {
 	background-repeat: no-repeat;
 	background-position: 8px 8px;
 }
+
+
+.top_menu {
+	height: 62px;
+	background-color: #242424;
+	box-shadow: rgba(255,255,255,.3) 0 0 0 1px;
+	font-family: "BebasRegular";
+	text-transform: uppercase;
+}
+
+
+.top_menu ul {
+	padding: 0;
+	margin: 0 0 0 20px;
+	list-style: none;
+
+}
+
+.top_menu a {
+	color: white;
+	font-size: 20px;
+	padding: 0 26px 0 54px;
+	display: block;
+	line-height: 62px;
+	border-left: 1px #3b3b3b solid;
+	background-image: url(../img/top_icon_set.png);
+	background-repeat: no-repeat;
+	background-position: 20px 14px;
+}
+
+.top_menu li {
+	float: left;
+}
+
+.top_menu li .active a,
+.top_menu li:hover a {
+	background-color: #050505;
+}
+
+.top_menu li:nth-child(2) a {
+  background-position: 18px -70px;
+} 
+
+.top_menu li:nth-child(3) a {
+	background-position: 20px -150px;
+} 
+
+.top_menu li:nth-child(4) a {
+	background-position: 18px -235px;
+} 
+
+.top_menu li:nth-child(5) a {
+	background-position: 20px -328px;
+}
+
+.top_menu li:nth-child(6) a {
+	background-position: 20px -432px;
+}  
+
+.waranty {
+	float: right;
+	color: white;
+	cursor: default;
+	font-size: 15px;
+	border: 3px solid white;
+	border-radius:  3px;
+	padding: 3px 5px;
+	margin-right: 30px;
+	line-height: 16px;
+	margin-top: 8px;
+}
+
+.w_left,
+.w_right {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.w_left span {
+	font-size: 33px;
+	font-family: "BebasBold";
+}
+
+.w_left {
+	font-family: "BebasBold";
+	font-size: 20px;
+	margin-top: 10px;
+	margin-right: 8px;
+}
+
+.w_right {
+	font-family: "RobotoCondensedRegular";
+}
+
+.main_cats {
+	background-color: #191919;
+	padding: 20px 0 40px;
+}
+
+.main_cats h2 {
+	text-transform: uppercase;
+	color: #c9c9c9;
+	font-family: "BebasRegular";
+	text-align: center;
+	font-size: 40px;
+
+}
+
+.main_cats h2 strong {
+	color: white;
+}
+
+.main_cats h2 span {
+	color: #d12f22;
+
+}
+
+section h2 {
+	position: relative;
+}
+
+.s_black h2::before  {
+	content: "";
+	position: absolute;
+	top: 18px;
+	margin-left: -68px;
+	width: 50px;
+	height: 20px;
+	background-image: url(../img/line.png);
+
+}
+
+
+.s_black h2::after {
+	content: "";
+	position: absolute;
+	top: 18px;
+	margin-left: 19px;
+	width: 50px;
+	height: 20px;
+	background-image: url(../img/line.png);
+	background-position: 40px 0px;
+}
+
+.mc_wrap {
+	text-align: center;
+	padding: 0;
+	position: relative;
+}
+
+.mc_item {
+	border: 1px solid #353535;
+	border-radius: 2px;
+	height: 164px
+}
+
+.mc_item_wrap {
+	margin-left: 30px;
+	width: 164px;
+	display: inline-block;
+	text-align: center;
+}
+
+
+
+.mc_item_wrap .active > ul li {
+float: left; 
+}
+.mc_item_wrap:nth-child(1) {
+	margin-left: 0;
+}
+
+.mc_item_wrap a {
+	color: white;
+}
+
+.mc_item h4 {
+	font-size: 20px;
+	font-family: "BebasBold";
+	text-decoration: none;
+	font-weight: normal;
+	margin-top: 5px;
+	transition: all 1s;
+	margin-bottom: 7px;
+}
+
+.mc_item  a:hover h4 {
+	text-decoration: underline;
+}
+
+.mc_item_wrap:hover {
+	background-color: #2a2a2a;
+}
+
+.mc_item span {
+	display: block;
+	width: 130px;
+	height: 85px;
+	background-image: url(../img/icon_set.png);
+	margin: 15px auto 15px;
+}
+
+.mc_item_wrap:nth-child(1) span {
+	background-position: 13px 0px;
+}
+
+.mc_item_wrap:nth-child(2) span {
+	background-position: -140px 0;
+}
+
+
+.mc_item_wrap:nth-child(3) span {
+	background-position: -280px 0;
+}
+
+.mc_item_wrap:nth-child(4) span{
+	background-position: -428px 0;
+}
+
+.mc_item_wrap:nth-child(5) span{
+	background-position: -574px 0;
+}
+
+.mc_item_wrap:nth-child(6) span{
+	background-position: -708px 0;
+}
+
+.mc_toggle {
+	background-color: #212121;
+	height: 25px;
+	width: 164px;
+	left: -1px;
+	position: relative;
+	cursor: pointer;
+	background-image: url(../img/arrow_pack.png);
+	background-position: 75px 10px;
+	background-repeat: no-repeat;
+	
+
+}
+
+
+.mc_item_wrap:hover .mc_toggle {
+	background-color: #353535;
+	height: 25px;
+	position: relative;
+	cursor: pointer;
+	background-image: url(../img/arrow_pack.png);
+	background-position: -115px 10px;
+	background-repeat: no-repeat;
+
+}
+
+.mc_item_wrap.active > ul {
+	position: absolute;
+	width: 94%; 
+	margin: 0;
+	padding:15px 0;
+	font-size: 20px;
+	list-style-type: none;
+	background-color: #353535;
+	color: white;
+	margin-top: 35px;
+	z-index: 10;
+	display: none;
+}
+
+.mc_item_wrap.active > ul li{
+	display: inline-block;
+	font-family: "BebasRegular";
+
+}
+
+.mc_item_wrap.active > ul li a {
+	padding: 0 10px;  
+	text-decoration: underline;
+}
+
+.mc_item_wrap.active > ul li a:hover {
+	text-decoration: none;
+}
+
+
+.mc_button_w {
+	text-align: center;
+	margin-top: 40px
+}
+
+
+
+

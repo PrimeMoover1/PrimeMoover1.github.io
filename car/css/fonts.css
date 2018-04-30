@@ -60,3 +60,14 @@
 	font-style: normal;
 	font-weight: normal;
 }
+
+
+@font-face {
+	font-family: 'RobotoCondensedRegular';
+	src: url('../fonts/RobotoCondensedRegular/RobotoCondensedRegular.eot');
+	src: url('../fonts/RobotoCondensedRegular/RobotoCondensedRegular.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/RobotoCondensedRegular/RobotoCondensedRegular.woff') format('woff'),
+		 url('../fonts/RobotoCondensedRegular/RobotoCondensedRegular.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+}

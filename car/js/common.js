@@ -1,5 +1,8 @@
 $(document).ready(function() {
 
+$(".mc_toggle").click(function() {
+	$(this).parent().parent().children("ul").slideToggle();
+});
 	//Цели для Яндекс.Метрики и Google Analytics
 	$(".count_element").on("click", (function() {
 		ga("send", "event", "goal", "goal");
