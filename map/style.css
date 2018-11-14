@@ -28,3 +28,8 @@ a {
 .link_list {
 	padding-top: 20px;
 }
+
+footer a {
+	margin-top: 30px;
+	font-size: 22px;
+}
