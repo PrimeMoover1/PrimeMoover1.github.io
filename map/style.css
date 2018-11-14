@@ -14,20 +14,28 @@ h1 {
 	color: rgba(80 80 80);
 }
 
+h1 a {
+	font-family: Verdana;
+	font-size: 40pt;
+	color: rgba(80 80 80);
+	text-decoration: none;
+	display: inline-block;
+}
+
 h2 {
 	font-family: Verdana; 
 	color: rgba(80 80 80);
 }
 
-a {
+article a {
 	display: block;
 	padding-bottom: 2%;
 	font-size: 30px;
 }
 
 
-
 footer a {
-	margin-top: 40px;
+	display: block;
+	margin-top: 50px;
 	font-size: 30px;
 }
