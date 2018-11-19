@@ -1,0 +1,23 @@
+body {
+	padding-left: 3%;
+}
+
+h1, h2, h3 {
+	font-family: Helvetica;
+}
+
+
+h3 {
+	font-size: 26pt;
+}
+
+.article {
+	width: 50%;
+}
+
+.article p {
+	font-family: PT Serif;
+	font-size: 14pt;
+	line-height: 19pt;
+}
+
