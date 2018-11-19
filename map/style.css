@@ -11,13 +11,13 @@ header {
 h1 {
 	font-family: Verdana;
 	font-size: 40pt;
-	color: rgba(80 80 80);
+	color: rgb(80 80 80);
 }
 
 h1 a {
 	font-family: Verdana;
 	font-size: 40pt;
-	color: rgba(80 80 80);
+	color: rgb(80 80 80);
 	text-decoration: none;
 	display: inline-block;
 }

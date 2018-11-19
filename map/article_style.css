@@ -12,12 +12,30 @@ h3 {
 }
 
 .article {
-	width: 50%;
+	width: 51%;
 }
 
 .article p {
 	font-family: PT Serif;
 	font-size: 14pt;
 	line-height: 19pt;
+}
+
+.article .code p {
+	font-family: PT Mono;
+	color: #333333;
+	font-size: 13pt;
+
+} 
+
+.article .code {
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+}
+
+footer a {
+	display: block;
+	margin-top: 50px;
+	font-size: 18pt;
 }
 
