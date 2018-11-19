@@ -24,6 +24,7 @@ h3 {
 .article .code p {
 	font-family: PT Mono;
 	color: #333333;
+	padding-left: 2%;
 	font-size: 13pt;
 
 } 
@@ -31,6 +32,7 @@ h3 {
 .article .code {
 	padding-top: 0.5%;
 	padding-bottom: 0.5%;
+	background: rgba(213, 213, 213, 0.75);
 }
 
 footer a {
