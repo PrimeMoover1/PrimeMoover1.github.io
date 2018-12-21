@@ -14,7 +14,7 @@ function newElement() {
     var t = document.createTextNode(inputValue);
     li.appendChild(t);
     if(inputValue == "") {
-       alert("Введите ваше дело!");
+       alert("Введите новое дело!");
     } else {
        document.getElementById('list').appendChild(li);
     }
