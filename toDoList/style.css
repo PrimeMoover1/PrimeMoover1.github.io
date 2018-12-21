@@ -62,7 +62,8 @@ input[type="text"]:focus {
   background: rgb(53, 167, 110);
 }
 .listone {
-  margin-top: 10%;
+  margin-top: 5%;
+  position: relative;
 
 }
 
@@ -79,6 +80,7 @@ ul li {
     background: white;
     font-size: 18px;
     transition: 0.3s;
+    border-bottom: 1px solid lightgrey;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
