@@ -123,3 +123,8 @@ ul li.checked::before {
     background-color: #f44336;
     color: white;
 }
+
+
+@media screen and (max-width: 1280px) { div.contentblock {width: 1200px;} }
+@media screen and (max-width: 1140px) { div.contentblock {width: 1024px;} }
+@media screen and (max-width: 992px) { div. contentblock {width: 970px;} }
