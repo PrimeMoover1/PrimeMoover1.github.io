@@ -61,10 +61,13 @@ input[type="text"]:focus {
 .addBtn:hover {
   background: rgb(53, 167, 110);
 }
+.listone {
+  margin-top: 10%;
 
+}
 
 ul {
-    margin: 0;
+    margin-top: 0;
     padding: 0;
     list-style: none;
 }
@@ -73,9 +76,9 @@ ul li {
     cursor: pointer;
     position: relative;
     padding: 12px 8px 12px 40px;
-    background: lightgrey;
+    background: white;
     font-size: 18px;
-    transition: 0.2s;
+    transition: 0.3s;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -83,7 +86,7 @@ ul li {
 }
 
 ul li:nth-child(odd) {
-    background: lightgrey;
+    background: white;
 }
 
 ul li:hover {
