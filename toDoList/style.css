@@ -1,6 +1,8 @@
 .blockOne {
   width: 45%;
   height: 20%;
+  position: relative;
+  display: block;
   background: #3B4BFC;
   padding-bottom: 20px;
   padding-top: 10px;
@@ -71,7 +73,7 @@ ul li {
     cursor: pointer;
     position: relative;
     padding: 12px 8px 12px 40px;
-    background: #eee;
+    background: lightgrey;
     font-size: 18px;
     transition: 0.2s;
     -webkit-user-select: none;
@@ -81,7 +83,7 @@ ul li {
 }
 
 ul li:nth-child(odd) {
-    background: #f9f9f9;
+    background: lightgrey;
 }
 
 ul li:hover {
@@ -89,7 +91,7 @@ ul li:hover {
 }
 
 ul li.checked {
-    background: #888;
+    background: rgb(64,199,129);
     color: #fff;
     text-decoration: line-through;
 }
