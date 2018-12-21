@@ -1,6 +1,6 @@
 .blockOne {
-  width: 45%;
-  height: 20%;
+  max-width: 650px;
+  min-height: 200px;
   position: relative;
   display: block;
   background: #3B4BFC;
