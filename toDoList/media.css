@@ -1,7 +1,7 @@
 
 @media only screen  
   and (min-width: 375px) 
-  and (max-width: 667px)  { 
+  and (max-width: 770px)  { 
   
 	.blockOne {
     width: 100%;
@@ -17,7 +17,7 @@
 
 @media only screen  
   and (min-width: 375px) 
-  and (max-width: 667px) 
+  and (max-width: 770px) 
   and (orientation: portrait) { 
   
 	.blockOne {
