@@ -1,8 +1,13 @@
 @media screen and (max-width: 1280px) { div.contentblock {width: 1200px;} }
 @media screen and (max-width: 1140px) { div.contentblock {width: 1024px;} }
-@media screen and (max-width: 770px)  { 
+@media screen and (max-width: 440px)  { 
   .blockOne {
     width: 100%;
+    height: 50%;
     background: black;
   } 
+
+  input[type="text"] {
+  	width: 80%;
+  }
 }
