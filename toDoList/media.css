@@ -27,7 +27,7 @@
   and (-webkit-min-device-pixel-ratio: 2){ 
   
 	.blockOne {
-    width: 100%;
+    width: 80%;
     height: 50%;
     background: #3B4BFC;
   } 
@@ -37,6 +37,10 @@
   	height: 30%;
   }
 
+  .addBtn {
+  width: 40%;
+
+}
   .blockOne h1 {
   text-align: center;
   font-family: Helvetica;
