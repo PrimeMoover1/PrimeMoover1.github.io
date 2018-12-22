@@ -1,7 +1,6 @@
 .blockOne {
-  max-width: 700px;
+  width: 700px;
   position: relative;
-  display: block;
   background: #3B4BFC;
   padding-bottom: 20px;
   padding-top: 10px;
