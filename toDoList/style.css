@@ -50,6 +50,7 @@ input[type="text"]:focus {
 
 .addBtn {
   width: 20%;
+  position: relative;
   font-weight: 700;
   font-family: Helvetica;
   color: white;

@@ -15,10 +15,16 @@
   	input[type="text"] {
   	width: 80%;
   	height: 40%;
+  	margin-bottom: 40px;
   }
 
  ul {
     margin-top: 30px;
+ }
+
+
+ .addBtn {
+ 	margin-top: 40px;
  }
   .blockOne h1 {
   text-align: center;
