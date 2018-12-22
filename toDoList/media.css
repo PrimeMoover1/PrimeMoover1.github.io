@@ -8,7 +8,7 @@
   
 	.blockOne {
     width: 90%;
-    height: 60%;
+    height: 50%;
     background: #3B4BFC;
   } 
 
@@ -17,10 +17,9 @@
   	height: 40%;
   }
 
-  .addBtn {
-  width: 50%;
-
-}
+ ul {
+    margin-top: 30px;
+ }
   .blockOne h1 {
   text-align: center;
   font-family: Helvetica;
