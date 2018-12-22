@@ -1,12 +1,18 @@
 
 @media screen  
-  and (max-device-width: 670px)  { 
+  and (max-width: 670px)  { 
   
 	.blockOne {
     width: 100%;
     height: 50%;
-    background: black;
+    background: #3B4BFC;
   } 
+
+  .blockOne h1 {
+  text-align: center;
+  font-family: Helvetica;
+  color: white;
+  font-size: 60pt;
 
   	input[type="text"] {
   	width: 80%;
@@ -15,13 +21,13 @@
 
 
 @media screen   
-  and (max-device-width: 670px) 
+  and (max-width: 670px) 
   and (orientation: portrait) { 
   
 	.blockOne {
     width: 100%;
     height: 50%;
-    background: black;
+    background: #3B4BFC;
   } 
 
   	input[type="text"] {
