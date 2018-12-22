@@ -50,7 +50,6 @@ input[type="text"]:focus {
 
 .addBtn {
   width: 20%;
-  position: relative;
   font-weight: 700;
   font-family: Helvetica;
   color: white;
@@ -64,6 +63,8 @@ input[type="text"]:focus {
 .addBtn:hover {
   background: rgb(53, 167, 110);
 }
+
+
 .listone {
   margin-top: 4%;
   position: relative;
@@ -77,6 +78,7 @@ ul {
 
 ul li {
     cursor: pointer;
+    position: relative;
     padding: 15px 8px 15px 40px;
     background: white;
     font-size: 18px;
