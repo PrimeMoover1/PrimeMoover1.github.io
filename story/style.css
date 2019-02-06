@@ -1,7 +1,14 @@
 .block_text {
-	width: 45.5%;
+	width: 50.5%;
 	margin: auto;
 }
+
+
+.block_text .left_side_title p {
+	font-size: 20px;
+	font-style: italic;
+}
+
 
 .block_text p {
 	font-family: Iowan Old Style;
@@ -10,12 +17,6 @@
 	margin: 33px 0 0px 0px;
 }
 
-.block_text .paragraf {
-	font-family: Iowan Old Style;
-	width: 20%;
-	padding: 12% 0 6%;
-	font-size: 22px;
-	font-style: bold;
-	margin: auto;
-	text-align: center;
+.paragraph {
+	margin-top: 10%;
 }
