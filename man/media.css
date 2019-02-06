@@ -1,0 +1,30 @@
+@media  screen   
+  and (max-width: 650px) 
+  and (orientation: portrait) 
+  { 
+
+.block_text {
+	max-width: 90%;
+	margin: auto;
+}
+
+
+.block_text p {
+	font-family: Iowan Old Style;
+	font-size: 20px;
+	line-height: 31px;
+	margin: 33px 0 0px 0px;
+}
+
+
+.block_text .paragraf {
+	font-family: Iowan Old Style;
+	width: 20%;
+	padding: 12% 0 6%;
+	font-size: 22px;
+	font-style: bold;
+	margin: auto;
+	text-align: center;
+}
+
+  }
