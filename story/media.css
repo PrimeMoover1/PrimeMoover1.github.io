@@ -35,4 +35,11 @@
   	.block_text {
 	width: 90%;
 }
+
+.block_text p {
+	font-family: Iowan Old Style;
+	font-size: 16px;
+	line-height: 27px;
+	margin: 29px 0 0px 0px;
+}
   }
