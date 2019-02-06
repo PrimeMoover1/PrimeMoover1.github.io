@@ -18,15 +18,10 @@
 }
 
 
-.block_text .paragraf {
-	font-family: Iowan Old Style;
-	width: 20%;
-	padding: 12% 0 6%;
-	font-size: 22px;
-	font-style: bold;
-	margin: auto;
-	text-align: center;
+.paragraph {
+	margin-top: 12%;
 }
+
 
   }
 
