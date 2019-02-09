@@ -1,24 +1,24 @@
 body {
-	font-size: 21px;
+	font-size: 20px;
 }
 
 
 
 .block_text {
-	width: 53%;
+	width: 52%;
 	margin: auto;
 }
 
 
 .block_text .left_side_title p {
-	font-size: 21px;
+	font-size: 20px;
 	font-style: italic;
 }
 
 
 .block_text p {
 	font-family: Iowan Old Style;
-	font-size: 21px;
+	font-size: 20px;
 	line-height: 1.5em;
 	margin: 1.5em 0;
 }
