@@ -13,10 +13,8 @@
 .block_text p {
 	font-family: Iowan Old Style;
 	font-size: 20px;
-	line-height: 31px;
+	line-height: 1.5em;
 	margin: 33px 0 0px 0px;
 }
 
-.paragraph {
-	margin-top: 10%;
-}
+
