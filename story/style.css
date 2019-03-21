@@ -31,23 +31,22 @@ body {
 }
 
 .conteiner {
-	margin: 5% auto;
+	margin: 7% auto;
 	text-align: center;
 	height: 100%;
 }
 
 h3 {
 	font-size: 25px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Cormorant', sans-serif;
 	font-weight: lighter;
+	font-style: italic;
 }
 
 
 
-
-
 footer {
-	margin-top: 30%;
+	margin-top: 40%;
 }
 
 a {
