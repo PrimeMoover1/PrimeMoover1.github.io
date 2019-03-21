@@ -25,6 +25,10 @@ h1 {
 	font-size: 72px;
 }
 
+a {
+	font-size: 20px;
+}
+
 .conteiner {
 	margin: 15% auto;
 }
