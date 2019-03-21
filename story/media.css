@@ -32,6 +32,11 @@ a {
 .conteiner {
 	margin: 15% auto;
 }
+
+footer {
+	margin-top: 45%;
+}
+
   }
 
   @media  screen   
