@@ -19,6 +19,8 @@
 
 h3 {
 	font-size: 20px;
+	font-family: 'Cormorant', sans-serif;
+
 }
 
 h1 {
@@ -34,7 +36,7 @@ a {
 }
 
 footer {
-	margin-top: 45%;
+	margin-top: 50%;
 }
 
   }
