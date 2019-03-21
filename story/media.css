@@ -22,9 +22,12 @@ h3 {
 }
 
 h1 {
-	font-size: 80px;
+	font-size: 72px;
 }
 
+.conteiner {
+	margin: 15% auto;
+}
   }
 
   @media  screen   
