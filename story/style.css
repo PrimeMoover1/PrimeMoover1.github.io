@@ -24,38 +24,34 @@ body {
 	margin: 1.65em 0;
 }
 
-.main-block {
-	width: 100%;
-	display: flex;
-	flex-direction: column;
-}
-
 .conteiner {
-	margin: 7% auto;
-	text-align: center;
-	height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
-h3 {
-	font-size: 25px;
-	font-family: 'Cormorant', sans-serif;
-	font-weight: lighter;
-	font-style: italic;
+.group {
+  margin: auto;
+  text-align: center;
+  padding-top: 10%;
 }
 
+header {
+  font-size: 30px;
+  margin-bottom: 20%;
+  font-family: 'Cormorant', sans-serif;
+}
 
+.title {
+  font-size: 90px;
+  margin-bottom: 20%;
+  font-family: 'Cormorant', sans-serif;
+  font-weight: bold;
+
+}
 
 footer {
-	margin-top: 40%;
-}
-
-a {
-	text-decoration: none;
-	color: black;
-}
-
- h1 {
-	font-size: 120px;
-	font-family: Gotham, sans-serif;
-	font-weight: bolder;
+  font-size: 20px;
+  font-family: 'Cormorant', sans-serif;
+  font-style: italic;
 }

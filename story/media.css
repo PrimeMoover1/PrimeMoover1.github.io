@@ -17,26 +17,27 @@
 	
 }
 
-h3 {
+header {
 	font-size: 20px;
 	font-family: 'Cormorant', sans-serif;
-
-}
-
-h1 {
-	font-size: 72px;
-}
-
-a {
-	font-size: 20px;
-}
-
-.conteiner {
-	margin: 15% auto;
+	margin-bottom: 20%;
 }
 
 footer {
-	margin-top: 50%;
+	font-size: 17px;
+	font-family: 'Cormorant', sans-serif;
+	
+}
+
+.title {
+	font-size: 72px;
+	margin-bottom: 20%;
+}
+
+
+
+.conteiner {
+	margin: 15% auto;
 }
 
   }
