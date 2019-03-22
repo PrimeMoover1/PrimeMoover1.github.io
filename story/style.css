@@ -24,6 +24,10 @@ body {
 	margin: 1.65em 0;
 }
 
+.block_text p::selection {
+	background-color: yellow;
+}
+
 .conteiner {
   width: 100%;
   display: flex;

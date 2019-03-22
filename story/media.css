@@ -49,19 +49,6 @@ footer {
 
   }
 
-  @media  screen   
-  and (max-width: 820px) 
-  and (orientation: landscape) {
-  	.block_text {
-	width: 90%;
-}
 
-.block_text p {
-	font-family: Iowan Old Style;
-	font-size: 16px;
-	line-height: 1.5em;
-	margin: 1.5em 0;
-}
-  }
 
 
