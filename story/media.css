@@ -5,7 +5,7 @@
 
 
 .conteiner {
-	height: 60vh;
+	height: 70vh;
 }
 
 .block_text {
@@ -39,13 +39,13 @@ footer {
 	margin-bottom: 20%;
 }
 
-.read a {
+.read-btn {
 	display: block;
-	width: 35px;
-	height: 20px;
-	margin: 25% auto;
+	width: 40px;
+	height: 40px;
+	margin: 20% auto 60%;
+	background-image: url(open-book.svg);
  }
-
 
 
 .conteiner {
