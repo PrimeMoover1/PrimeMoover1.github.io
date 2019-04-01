@@ -96,7 +96,16 @@ ul a {
 	display: block;
 	width: 40px;
 	height: 40px;
-	margin: 20% auto 45%;
+	margin: 20% auto 50%;
+	background-image: url(open-book.svg);
+ }
+
+
+ .read-btn-lost {
+	display: block;
+	width: 40px;
+	height: 40px;
+	margin: 20% auto;
 	background-image: url(open-book.svg);
  }
 
@@ -109,5 +118,5 @@ ul a {
  }
 
  .menu_active {
- 	transform: translateY(-90%);
+ 	transform: translateY(-80%);
  }
