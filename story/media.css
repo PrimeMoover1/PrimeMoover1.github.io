@@ -3,6 +3,11 @@
   and (orientation: portrait) 
   { 
 
+
+.conteiner {
+	height: 70vh;
+}
+
 .block_text {
 	width: 94%;
 	margin: auto;
@@ -46,6 +51,14 @@ footer {
 .conteiner {
 	margin: 15% auto;
 }
+
+.menu {
+	height: 60%;
+}
+
+
+
+
 
   }
 
