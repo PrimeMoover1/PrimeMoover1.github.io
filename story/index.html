@@ -7,15 +7,28 @@
 	<link rel="stylesheet" href="media.css">
 	<link href="https://fonts.googleapis.com/css?family=Cormorant" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
+  </head>
 <body>
 		<div class="conteiner">
       <div class="group">
         <header>короткий рассказ:</header>
         <div class="title">"СЧАСТЬЕ"</div>
         <footer>автор: <a href="#">Константин Любавин</a></footer>
-        <div class="read"><a href="text.html"><img src="open-book.svg" alt=""></a></div>
+        <div class="menu">
+        	<a href="#" class="read-btn"></a>
+        	<ul>
+        		<li><a href="text.html">ГЛАВА 1</a></li>
+        		<li><a href="text.html">ГЛАВА 2</a></li>
+        		<li><a href="text.html">ГЛАВА 3</a></li>
+        		<li><a href="text.html">ГЛАВА 4</a></li>
+        	</ul>
+        </div>
       </div>
   </div>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	     <script>	$('.read-btn').on('click', function(e) {
+  		e.preventDefault();
+  		$('.menu').toggleClass('menu_active');
+  		})</script>  
 </body>
 </html>

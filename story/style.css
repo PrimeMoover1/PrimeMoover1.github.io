@@ -32,6 +32,7 @@ body {
   width: 100%;
   display: flex;
   flex-direction: column;
+  overflow-y: hidden;
 }
 
 .group {
@@ -68,9 +69,40 @@ a {
   text-decoration: none;
 }
 
-.read a {
+ul {
+	list-style: none;
+
+}
+
+li {
+	margin-bottom: 25px;
+	display: block;
+}
+
+ul a {
+	font-style: normal;
+	font-family: sans-serif;
+	font-size: 21px;
+}
+
+
+.read-btn {
 	display: block;
 	width: 40px;
 	height: 40px;
-	margin: 20% auto;
+	margin: 20% auto 45%;
+	background-image: url(open-book.svg);
+ }
+
+ .menu {
+ 	width: 100%;
+ 	transition: 0.5s;
+ 	height: 70%;
+ 	transform: translateY(0%);
+ 	z-index: 1;
+ 	background-color: #fff;
+ }
+
+ .menu_active {
+ 	transform: translateY(-75%);
  }
