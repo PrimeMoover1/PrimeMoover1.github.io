@@ -16,6 +16,14 @@ body {
 	font-style: italic;
 }
 
+.chapter {
+	font-size: 25px;
+	text-align: center;
+	line-height: 1.65em;
+	margin: 3em 0;
+	font-style: bold;
+}
+
 
 .block_text p {
 	font-family: Iowan Old Style;
