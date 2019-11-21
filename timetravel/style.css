@@ -1,0 +1,17 @@
+header {
+    width: 50%;
+    margin: auto;
+    
+}
+
+h1  {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+
+main {
+    width: 50%;
+    margin: auto;
+}

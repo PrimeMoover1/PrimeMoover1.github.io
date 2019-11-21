@@ -1,0 +1,23 @@
+@media  screen   
+  and (max-width: 550px) 
+  and (orientation: portrait) 
+  { 
+    
+    header {
+      margin: inherit;
+      width: 90%;
+      margin-bottom: 25%;
+    }
+    
+    h1 {
+        font-size: 28px;
+    }
+    
+    main {
+      margin: inherit;
+      width: 80%;
+    }
+    
+    
+
+  }
