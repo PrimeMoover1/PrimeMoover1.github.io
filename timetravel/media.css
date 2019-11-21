@@ -6,7 +6,7 @@
     header {
       margin: inherit;
       width: 90%;
-      margin-bottom: 25%;
+      margin-bottom: 10%;
     }
     
     h1 {
@@ -16,6 +16,12 @@
     main {
       margin: inherit;
       width: 80%;
+    }
+    
+    img {
+      width: 110%;
+      margin-left: 5%;
+      margin-bottom: 10%;
     }
     
     
